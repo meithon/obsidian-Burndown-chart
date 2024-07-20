@@ -38,7 +38,7 @@ export function burnoutDataFromTasks(tasks: Task[], targetEndDate: Date) {
   return {
     ramianTasksPerDay: getRemainTasksPerDay(tasks, remainPriod),
     plannedTasksPerDay: getPlandedTasksPerDay(tasks, planePriod),
-    labels: remainPriod.map(formatDatetoMMDD),
+    labels: planePriod.map(formatDatetoMMDD),
     tasksAmount: tasks.length,
   };
 }
