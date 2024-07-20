@@ -1,0 +1,9 @@
+// Bun Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`2 + 2 1`] = `
+{
+  "completedTasksPerDay": [],
+  "labels": [],
+  "plannedTasksPerDay": [],
+}
+`;
